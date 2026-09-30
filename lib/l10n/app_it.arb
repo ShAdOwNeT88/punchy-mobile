@@ -1,0 +1,145 @@
+{
+  "@@locale": "it",
+  "appTitle": "Punchy",
+  "configErrorTitle": "Configurazione mancante",
+  "configErrorMessage": "Il valore \"{key}\" non è impostato o non è valido. Avvia l'app con --dart-define-from-file=env/dev.json.",
+  "@configErrorMessage": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "loginWelcome": "Bentornato",
+  "loginSubtitle": "Abbonamenti e tessere fedeltà, sempre con te.",
+  "loginEmailLabel": "Email",
+  "loginPasswordLabel": "Password",
+  "loginSubmit": "Accedi",
+  "loginShowPassword": "Mostra password",
+  "loginHidePassword": "Nascondi password",
+  "loginErrorInvalidEmail": "Inserisci un indirizzo email valido.",
+  "loginErrorPasswordTooShort": "La password deve avere almeno {min} caratteri.",
+  "@loginErrorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "loginErrorInvalidCredentials": "Email o password non corrette.",
+  "loginErrorNetwork": "Impossibile contattare il server. Controlla la connessione.",
+  "loginErrorUnknown": "Qualcosa è andato storto. Riprova.",
+  "loginDemoHint": "Modalità demo: qualsiasi email e una password di almeno 6 caratteri.",
+  "cardsTitle": "Le mie tessere",
+  "cardsGreeting": "Ciao {name} 👋",
+  "@cardsGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cardsGreetingAnonymous": "Ciao 👋",
+  "cardsEmpty": "Non hai ancora nessuna tessera.",
+  "cardsError": "Non è stato possibile caricare le tessere.",
+  "cardsRetry": "Riprova",
+  "cardsLogout": "Esci",
+  "cardsProgressEntries": "{used} di {total} ingressi",
+  "@cardsProgressEntries": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "cardsProgressMonths": "{used} di {total} mesi pagati",
+  "@cardsProgressMonths": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "cardNumberLabel": "TESSERA N.",
+  "cardSurnameLabel": "COGNOME",
+  "cardNameLabel": "NOME",
+  "cardInfoLabel": "Info",
+  "cardEntriesHeader": "INGRESSI",
+  "cardMonthlyHeader": "MENSILITÀ",
+  "cardDetailFront": "Fronte",
+  "cardDetailBack": "Retro",
+  "cardDetailFlipHint": "Tocca o scorri la tessera per girarla",
+  "cardDetailEntriesUsed": "Ingressi usati",
+  "cardDetailMonthsPaid": "Mesi pagati",
+  "cardDetailRemaining": "Rimanenti",
+  "cardDetailValidUntil": "Valida fino al",
+  "cardDetailNoExpiry": "—",
+  "cardDetailHistory": "Storico",
+  "cardDetailHistoryEmpty": "Nessun ingresso o pagamento registrato.",
+  "cardDetailStampEntry": "Ingresso",
+  "cardDetailStampMonth": "Mensilità di {month}",
+  "@cardDetailStampMonth": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "cardDetailStampOperator": "Timbrato il {date} da {initials}",
+  "@cardDetailStampOperator": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "initials": {
+        "type": "String"
+      }
+    }
+  },
+  "cardDetailStampDate": "Timbrato il {date}",
+  "@cardDetailStampDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cardDetailError": "Tessera non disponibile.",
+  "cardsFilterAll": "Tutte",
+  "cardsFilterMemberships": "Abbonamenti",
+  "cardsFilterLoyalty": "Fedeltà",
+  "cardsFilterEmpty": "Nessuna tessera in questa categoria.",
+  "cardsProgressLoyalty": "{used} di {total} timbri",
+  "cardsRewardReady": "Premio pronto!",
+  "cardLoyaltyHeader": "RACCOLTA TIMBRI",
+  "cardRewardLabel": "PREMIO",
+  "cardDetailStampsCollected": "Timbri raccolti",
+  "cardDetailToReward": "Al premio",
+  "cardDetailRewardTitle": "Il tuo premio",
+  "cardDetailRewardProgress": "{count, plural, =1{Ancora 1 timbro} other{Ancora {count} timbri}}",
+  "cardDetailRewardReady": "Premio sbloccato! Mostra la tessera in cassa.",
+  "cardDetailStampLoyalty": "Timbro",
+  "@cardsProgressLoyalty": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@cardDetailRewardProgress": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
